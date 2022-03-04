@@ -1,8 +1,8 @@
-import Util from './util';
-import Pattern from './pattern';
-import Service from './service';
+const Util = require('./util');
+const Pattern = require('./pattern');
+const Service = require('./service');
 
-import Valid from './valid';
+const Valid = require('./valid');
 
 /*
 *     All Public
@@ -587,10 +587,8 @@ const XmlArea = {
 
 };
 
-export default {
-
-    TextArea,
-    UrlArea,
-    XmlArea
-
+module.exports = {
+  TextArea,
+  UrlArea,
+  XmlArea
 };

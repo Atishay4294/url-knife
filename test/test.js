@@ -1,4 +1,4 @@
-import Pattern from '../src/controller'
+const Pattern = require('../src/controller');
 const assert = require('assert');
 /*function test(title, testCode) {
     try {

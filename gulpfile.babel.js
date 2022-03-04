@@ -1,10 +1,10 @@
-import gulp from 'gulp';
-import babel from 'gulp-babel';
-import mocha from 'gulp-mocha';
-import gutil from 'gulp-util';
-import webpack from 'webpack';
-import webpackConfig from './webpack.config.babel';
-import WebpackDevServer from 'webpack-dev-server';
+const gulp = require('gulp');
+const babel = require('gulp-babel');
+const mocha = require('gulp-mocha');
+const gutil = require('gulp-util');
+const webpack = require('webpack');
+const webpackConfig = require('./webpack.config.babel');
+const WebpackDevServer = require('webpack-dev-server');
 
 gulp.task('default', ['webpack']);
 

@@ -1,4 +1,4 @@
-import Pattern from './pattern';
+const Pattern = require('./pattern');
 
 /*
 *     Private : Validation Check
@@ -89,4 +89,4 @@ const Valid = {
 
 };
 
-export default Valid;
+module.exports = Valid;

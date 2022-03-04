@@ -1,8 +1,8 @@
 /*
 *     Private : Utils
 * */
-import Valid from "./valid";
-import Pattern from './pattern';
+const Valid = require("./valid");
+const Pattern = require('./pattern');
 
 const Text = {
 
@@ -169,6 +169,6 @@ const Text = {
 
 };
 
-export default {
-    Text
+module.exports = {
+  Text
 }

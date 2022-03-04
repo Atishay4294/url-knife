@@ -1,5 +1,5 @@
-import Util from './util';
-import Valid from './valid';
+const Util = require('./util');
+const Valid = require('./valid');
 
 const Ancestors = {
 
@@ -455,7 +455,6 @@ let Children = {
 
 };
 
-export default {
-
-    Ancestors, Descendants, Children
+module.exports = {
+  Ancestors, Descendants, Children
 }

@@ -31,6 +31,6 @@
 
 * */
 
-import Pattern from './controller';
+const Pattern = require('./controller');
 
-export default Pattern;
+module.exports = Pattern;

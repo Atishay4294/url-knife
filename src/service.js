@@ -1,7 +1,7 @@
-import Pattern from './pattern';
-import Valid from './valid';
-import Util from './util';
-import {Normalizer} from './normalizer';
+const Pattern = require('./pattern');
+const Valid = require('./valid');
+const Util = require('./util');
+const {Normalizer} = require('./normalizer');
 
 const queryString = require('query-string');
 /*
@@ -964,7 +964,6 @@ const Xml = {
 
 };
 
-export default {
-
-    Text, Url, Xml
+module.exports = {
+  Text, Url, Xml
 }
